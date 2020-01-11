@@ -189,7 +189,7 @@ input, select, textarea {
 	p {
 		display: flex;
 		justify-content: center;
-		margin: 0 0 2rem 0;
+		margin: 0 0 1rem 0;
 	}
 
 		p.major {
@@ -2715,7 +2715,6 @@ input, select, textarea {
 
 	ul {
 		list-style: disc;
-		margin: 0 0 2rem 0;
 		padding-left: 1rem;
 	}
 
@@ -3566,7 +3565,7 @@ input, select, textarea {
 		@media screen and (max-width: 1680px) {
 
 			.banner.style1 .content {
-				padding: 3rem 5rem 3rem 5rem ;
+				padding: 0 5rem ;
 			}
 
 		}
