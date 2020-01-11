@@ -187,10 +187,14 @@ input, select, textarea {
 	}
 
 	p {
+		display: flex;
+		justify-content: center;
 		margin: 0 0 2rem 0;
 	}
 
 		p.major {
+			display: flex;
+			justify-content: center;
 			font-size: 1.25rem;
 		}
 
@@ -221,11 +225,15 @@ input, select, textarea {
 		}
 
 	h1 {
+		display: flex;
+		justify-content: center;
 		font-size: 3.5rem;
 		line-height: 1.2;
 	}
 
 	h2 {
+		display: flex;
+		justify-content: center;
 		font-size: 2.25rem;
 	}
 
@@ -2810,7 +2818,7 @@ input, select, textarea {
 		}
 
 			ul.actions.stacked li {
-				padding: 1.3rem 0 0 0;
+				padding: 0.5rem 0 0 0;
 			}
 
 			/* removed this because it was making my newly made nav bar have no parent on first child*/
@@ -2839,10 +2847,6 @@ input, select, textarea {
 		#storyContent .present {
 			max-width: 20.0rem;
 			align-self: flex-end;
-		}
-
-		.content {
-			border-bottom: 0.5px solid black;
 		}
 
 		#storyContent .future {
